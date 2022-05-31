@@ -4,7 +4,7 @@ class MessageService {
     
     const userMessage = msg.text.toString().toLowerCase();
     
-    const foundGreeting = greetings.find(e => e === message);
+    const foundGreeting = greetings.find(e => e === userMessage);
 
     if (userMessage.indexOf(foundGreeting) === 0) {
       return "Greeting founded";

@@ -1,6 +1,6 @@
 const MessageService = require('./model/services/messageService');
 const ResponseService = require('./model/services/responseService');
-
+const DotEnv = require('dotenv').config();
 const bot = require('./model/bot');
 
 const msgService = new MessageService();
